@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_why"
+            android:icon="@drawable/why"
+            android:title="Why study languages?" />
+        <item
+            android:id="@+id/nav_where"
+            android:icon="@drawable/where"
+            android:title="Where can I study?" />
+        <item
+            android:id="@+id/nav_can"
+            android:icon="@drawable/can_i"
+            android:title="Study In Others?" />
+        <item
+            android:id="@+id/nav_have"
+            android:icon="@drawable/faq"
+            android:title="Contact" />
+    </group>
+
+    <item android:title="Funded By">
+        <menu>
+            <item
+                android:id="@+id/nav_z"
+                android:icon="@drawable/australian_government_logo"
+                android:title="Australian Government"
+
+                 />
+
+            <item
+                android:id="@+id/nav_a"
+                android:icon="@drawable/office_for_learning_and_teaching_logo"
+                android:title="Office for Learning and Teaching" />
+
+            <item
+                android:id="@+id/nav_b"
+                android:icon="@drawable/lcnau"
+                android:title="LCNAU" />
+            <item
+                android:id="@+id/nav_c"
+                android:icon="@drawable/dynamics_of_language"
+                android:title="Dynamicsoflanguage" />
+            <item
+                android:id="@+id/nav_d"
+                android:icon="@drawable/anu"
+                android:title="Australian National University" />
+            <item
+                android:id="@+id/nav_e"
+                android:icon="@drawable/macquarie"
+                android:title="MACQUARIE University" />
+            <item
+                android:id="@+id/nav_f"
+                android:icon="@drawable/melbourne_university"
+                android:title="The University of Melbourne" />
+
+        </menu>
+    </item>
+
+</menu>

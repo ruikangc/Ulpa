@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+
+
+        android:src="@drawable/top" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDDDDD"
+
+        android:id ="@+id/first_name"
+        android:maxLength = "20"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#DDDDDD"
+        android:id ="@+id/last_name"
+        ></EditText>
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDDDDD"
+
+        android:id ="@+id/contact_number"
+        android:maxLength = "20"
+        ></EditText>
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDDDDD"
+
+        android:id ="@+id/email"
+        android:maxLength = "20"
+        ></EditText>
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Preferred Contact Method"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/spinner2"
+
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Message"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DDDDDD"
+
+        android:id ="@+id/your_message"
+        android:maxLength = "20"
+        android:layout_weight="0.98"></EditText>
+
+    <Button
+        android:id="@+id/send_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        ></Button>
+
+
+</LinearLayout>

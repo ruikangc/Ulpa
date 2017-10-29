@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<Spinner
+    android:id="@+id/spinner_season"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@android:style/Widget.Spinner"/>
+<Spinner
+    android:id="@+id/spinner_month"
+    android:layout_width="wrap_content"
+
+    android:prompt="@string/month"
+    android:layout_toRightOf="@+id/spinner_season"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/spinner_season"
+    style="@android:style/Widget.Spinner"/>
+</LinearLayout>
+
+
+

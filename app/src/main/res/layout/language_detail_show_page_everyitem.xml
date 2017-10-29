@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_hotelName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/rl_addHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/language_name"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/language_description"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/language_name"
+            android:layout_height="match_parent"
+
+
+            android:padding="5dp"
+            />
+        <Button
+            android:id="@+id/language_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Where Can Study This Language"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

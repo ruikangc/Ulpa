@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_hotelName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/rl_addHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/university_image_id"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/university_id"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/university_image_id"
+            android:layout_height="match_parent"
+
+
+            android:padding="5dp"
+             />
+        <TextView
+            android:id="@+id/state_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/university_id"
+
+            android:paddingTop="5dp"
+            />
+        <TextView
+            android:id="@+id/subject_name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/language_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject_name_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/subject_code_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/language_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/next_offered_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject_code_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/intensive_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/next_offered_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/on_campus_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intensive_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/pre_requisite_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/on_campus_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/taught_another_university_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pre_requisite_id"
+
+
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/advanced_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taught_another_university_id"
+
+
+            android:padding="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taught_another_university_id"
+
+            android:padding="5dp"
+            />
+
+
+
+        <TextView
+            android:layout_below="@+id/advanced_id"
+            android:id="@+id/more_information_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:autoLink="web"
+            android:text="MORE INFORMATION"
+            android:textColor="#cc4567"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

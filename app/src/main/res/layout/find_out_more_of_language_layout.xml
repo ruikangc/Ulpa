@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+
+
+        android:src="@drawable/top" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="WHAT LANGUAGES CAN I STUDY?" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:inputType="textMultiLine"
+        android:text="Languages offered at Year 12 Level in Australia(note that actual languages offered at Year 12 vary by state) Yes means that language is also offered at an Australian university. Clicking on the link will tell you more about the language and where it is offered. At the moment, ULPA can only give you information on availability of beginner-level subjects at Australian universities. We will soon be adding information to this site about more advanced levels (suitable for students with a Year 12 language), so stay tuned! In the meantime, note that, in general, if a language is not offered at a university at beginner level, it is unlikely to be available at a more advanced level."
+        android:layout_weight="0.03" />
+
+    <TextView
+
+        android:id="@+id/chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        android:text="Chinese"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+
+
+    <TextView
+
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+        android:clickable="true"
+        android:text="English"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+    <TextView
+
+        android:id="@+id/french"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        android:text="French"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+    <TextView
+
+        android:id="@+id/japanese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        android:text="Janpanese"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+    <TextView
+
+        android:id="@+id/german"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        android:text="German"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+    <TextView
+
+        android:id="@+id/greek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+
+        android:text="Greek"
+        android:textColor="#cc4567"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
